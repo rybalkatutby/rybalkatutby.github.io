@@ -1,0 +1,280 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" lang="ru-RU"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+беседки | Выгоничанка</title><link rel="stylesheet" type="text/css" media="all" href="http://rybalkatut.by/wp-content/themes/dot-b/style.css"><link rel="dns-prefetch" href="//s.w.org"><link rel="stylesheet" id="wp-block-library-css" href="http://rybalkatut.by/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all"><link rel="stylesheet" id="gllr_stylesheet-css" href="http://rybalkatut.by/wp-content/plugins/gallery-plugin_modify/css/style.css" type="text/css" media="all"><link rel="stylesheet" id="gllr_fancybox_stylesheet-css" href="http://rybalkatut.by/wp-content/plugins/gallery-plugin_modify/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="all"><link rel="stylesheet" id="thickbox-css" href="http://rybalkatut.by/wp-content/plugins/auto-thickbox-plus/thickbox.min.css" type="text/css" media="all"><script type="text/javascript" src="http://rybalkatut.by/wp-includes/js/jquery/jquery.js"></script><script type="text/javascript" src="http://rybalkatut.by/wp-includes/js/jquery/jquery-migrate.min.js"></script><script type="text/javascript" src="http://rybalkatut.by/wp-content/plugins/gallery-plugin_modify/fancybox/jquery.mousewheel-3.0.4.pack.js"></script><script type="text/javascript" src="http://rybalkatut.by/wp-content/plugins/gallery-plugin_modify/fancybox/jquery.fancybox-1.3.4.pack.js"></script><script type="text/javascript">
+/* <![CDATA[ */
+var thickboxL10n = {"next":"\u0414\u0430\u043b\u0435\u0435 \u2192","prev":"\u2190 \u041d\u0430\u0437\u0430\u0434","image":"\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435","of":"\u0438\u0437","close":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c","noiframes":"\u042d\u0442\u0430 \u0444\u0443\u043d\u043a\u0446\u0438\u044f \u0442\u0440\u0435\u0431\u0443\u0435\u0442 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0438 \u043f\u043b\u0430\u0432\u0430\u044e\u0449\u0438\u0445 \u0444\u0440\u0435\u0439\u043c\u043e\u0432. \u0423 \u0432\u0430\u0441 \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u044b \u0442\u0435\u0433\u0438 iframe, \u043b\u0438\u0431\u043e \u0432\u0430\u0448 \u0431\u0440\u0430\u0443\u0437\u0435\u0440 \u0438\u0445 \u043d\u0435 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u0442.","loadingAnimation":"http:\/\/rybalkatut.by\/wp-content\/plugins\/auto-thickbox-plus\/images\/loadingAnimation.gif","closeImage":"http:\/\/rybalkatut.by\/wp-content\/plugins\/auto-thickbox-plus\/images\/tb-close.png"};
+/* ]]> */
+</script><script type="text/javascript" src="http://rybalkatut.by/wp-content/plugins/auto-thickbox-plus/thickbox.min.js"></script><script type="text/javascript">
+			(function($){
+				$(document).ready( function() {
+					$( '#fancybox-overlay' ).css({
+						'width' : $(document).width()
+					});	
+				});	
+			})(jQuery);
+		</script><style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url("http://rybalkatut.by/wp-content/uploads/2013/03/sazanback.png"); background-position: left top; background-size: auto; background-repeat: repeat; background-attachment: scroll; }
+</style><script type="text/javascript">
+/* <![CDATA[ */
+jQuery(function($) {
+	var links = $('a[href][href!=""]').filter(function() {
+		// No ThickBox
+		var nothickbox = ['nothickbox', 'no_thickbox'];
+		for (var i = 0; i < nothickbox.length; i++)
+			if ($(this).hasClass(nothickbox[i])) return false;
+		// Links with target attribute
+		if ($(this).is('[target][target!=""]')) return false;
+
+		return true;
+	});
+
+	// Images
+	var imageRegex = /\.(jpe?g|gif|png|bmp|webp)($|[?&#])/i;
+	var images = links.filter(function() {
+		return imageRegex.test($(this).attr('href'));
+	});
+	images.addClass('thickbox');
+
+	// Others
+	var others = links.filter(function() {
+		return !imageRegex.test($(this).attr('href'));
+	});
+	others.filter('.thickbox').not('[href*="TB_iframe"]').not('[href*="#TB_inline"]').each(function() {
+		var href = $(this).attr('href');
+		if (href.indexOf('://') != -1 && href.indexOf(location.host) == -1) {
+			// Add 'TB_iframe' to external URL
+			var hashIndex = href.indexOf('#');
+			var before = hashIndex == -1 ? href : href.substring(0, hashIndex);
+			var after = hashIndex == -1 ? '' : href.substring(hashIndex);
+			$(this).attr('href', before + (before.indexOf('?') == -1 ? '?' : '&') + 'TB_iframe' + after);
+		}
+	});
+	others.filter('[href*="TB_iframe"]').add('[href*="#TB_inline"]').addClass('thickbox');
+
+	// for WordPress 2.7.x (jQuery 1.2.6)
+	if (!$.isFunction($().live))
+		tb_init('a.thickbox');
+
+	// Set a different gallery-id for each WordPress Gallery
+	$('div.gallery').each(function() {
+		if (this.id)
+			$(this).find('a.thickbox').attr('rel', this.id);
+	});
+});
+
+// Options for ThickBox Plus
+tb_options.auto_resize_img = false;
+tb_options.win_width = 500;
+tb_options.win_height = 300;
+/* ]]> */
+</script><script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42546019-1', 'rybalkatut.by');
+  ga('send', 'pageview');
+
+</script></head><body class="archive tag tag-17 custom-background">
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<a href="http://rybalkatut.by/" title="Выгоничанка" rel="home">«Выгоничанка»</a>
+			<div id="description">Платная рыбалка и отдых в минской области (3 км. от Ракова)</div>
+		</div>
+		<div id="header_right">
+			<div id="header_meta">
+				<div id="header_search_area">				
+				<form id="searchform" method="get" action="http://rybalkatut.by/">
+					<input type="text" value="Поиск..." onfocus="if (this.value == 'Поиск...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Поиск...' ;}" size="35" maxlength="50" name="s" id="s"><input type="submit" id="searchsubmit" value="ПОИСК"></form>				</div>
+				<a id="rss" rel="external nofollow" href="http://feeds.feedburner.com/rybalkatut/zuro" title="RSS Лента">RSS Лента</a>
+			</div>
+			<div class="clear"></div>
+		</div>
+				<img src="http://rybalkatut.by/wp-content/uploads/2013/03/header958x198.png" width="958" height="198" alt=""><div class="header_menu"><div class="menu-%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d0%be%d0%b5-container"><ul id="menu-%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d0%be%d0%b5" class="menu"><li id="menu-item-159" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-159"><a href="http://rybalkatut.by/news/">Новости</a></li>
+<li id="menu-item-154" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-154"><a href="http://rybalkatut.by/">О нас</a></li>
+<li id="menu-item-153" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-153"><a href="http://rybalkatut.by/fish/">Рыба</a></li>
+<li id="menu-item-152" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-152"><a href="http://rybalkatut.by/price/">Цены</a></li>
+<li id="menu-item-381" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-381"><a href="http://rybalkatut.by/booking/">Бронирование</a></li>
+<li id="menu-item-151" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-151"><a href="http://rybalkatut.by/gallery/">Галерея﻿﻿</a>
+<ul class="sub-menu"><li id="menu-item-283" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-283"><a href="http://rybalkatut.by/gallery/%D0%BA%D1%82%D0%BE-%D1%83%D0%BC%D0%B5%D0%B5%D1%82-%D1%82%D0%BE%D1%82-%D0%B8-%D0%BB%D0%BE%D0%B2%D0%B8%D1%82/">Кто умеет тот и ловит</a></li>
+	<li id="menu-item-158" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158"><a href="http://rybalkatut.by/gallery/fishing/">Рыбалка</a></li>
+	<li id="menu-item-157" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-157"><a href="http://rybalkatut.by/gallery/arbors-and-facilities/">Беседки и другие удобства</a></li>
+	<li id="menu-item-155" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-155"><a href="http://rybalkatut.by/gallery/event/">События</a></li>
+	<li id="menu-item-156" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156"><a href="http://rybalkatut.by/gallery/outing/">Отдых</a></li>
+</ul></li>
+<li id="menu-item-294" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-294"><a href="http://rybalkatut.by/%d0%ba%d0%b0%d1%80%d1%82%d0%b0-%d1%81%d0%b0%d0%b9%d1%82%d0%b0/">Карта сайта</a></li>
+</ul></div></div>
+	</div>
+<div id="main">
+	<div id="content">
+						<div class="post-1127 post type-post status-publish format-standard hentry category-news tag-17 tag-11 tag-15 tag-22" id="post-1127">
+			<h2 class="post_title_h2"><a href="http://rybalkatut.by/%d0%b2%d1%81%d1%91-%d0%b5%d1%89%d1%91-%d0%bd%d0%b5-%d0%b7%d0%bd%d0%b0%d0%b5%d1%82%d0%b5-%d0%b3%d0%b4%d0%b5-%d0%b2%d1%81%d1%82%d1%80%d0%b5%d1%82%d0%b8%d1%82%d1%8c-%d0%bd%d0%be%d0%b2%d1%8b%d0%b9-%d0%b3/">Всё ещё не знаете, где встретить Новый год 2017?</a></h2>
+			<div class="post_info_top">
+				<div class="post_info_date"> 27.12.2016</div>
+							</div>
+			<div class="post_content">
+				<p>Наша беседка-дом доступна для бронирования!<br>
+Встречайте новый 2017-й год компанией до 50 человек в большой отапливаемой беседке с дровами. Всего в 32км от Минска и всего за 400 рублей со всей компании!</p>
+<p>Ещё не видели фотографий? <a href="http://rybalkatut.by/gallery/arbors-and-facilities/vip-besedka-domik/" target="blank">Смотрите альбом!</a></p>
+<p><a href="http://rybalkatut.by/gallery/arbors-and-facilities/vip-besedka-domik/"><img src="http://rybalkatut.by/wp-content/uploads/2015/12/IMG_2128_web.jpg" alt="VIP беседка-домик" width="864" height="600" class="alignleft size-full wp-image-834"></a></p>
+<p>Также звоните насчёт брони для отдыха в остальные дни зимних праздников!<br>
++375 29 626-84-26<br>
++375 29 771-88-29</p>
+<p>С наступающим!</p>
+							</div>
+		</div>
+		<div class="post_info_bootom">
+			<div class="post_meta"><ul><li><a href="http://rybalkatut.by/tag/%d0%b1%d0%b5%d1%81%d0%b5%d0%b4%d0%ba%d0%b8/" rel="tag">беседки</a></li><li><a href="http://rybalkatut.by/tag/%d0%b7%d0%b8%d0%bc%d0%bd%d0%b8%d0%b9-%d1%81%d0%b5%d0%b7%d0%be%d0%bd/" rel="tag">зимний сезон</a></li><li><a href="http://rybalkatut.by/tag/%d0%be%d1%82%d0%b4%d1%8b%d1%85/" rel="tag">отдых</a></li><li><a href="http://rybalkatut.by/tag/%d0%bf%d1%80%d0%b0%d0%b7%d0%b4%d0%bd%d0%b8%d0%ba%d0%b8/" rel="tag">праздники</a></li></ul></div>  
+		</div>		
+			<div class="post-978 post type-post status-publish format-standard hentry category-news tag-17 tag-11 tag-18 tag-15 tag-9" id="post-978">
+			<h2 class="post_title_h2"><a href="http://rybalkatut.by/%d0%ba%d1%80%d0%b5%d1%89%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bf%d1%80%d0%be%d1%88%d0%bb%d0%be-%d0%bd%d0%b0-%d1%83%d1%80%d0%b0-%d0%b7%d0%b8%d0%bc%d0%bd%d0%b8%d0%b5-%d1%84%d0%be%d1%82%d0%be-%d0%b4%d0%be/">Крещение прошло на ура! + зимние фото дома-беседки</a></h2>
+			<div class="post_info_top">
+				<div class="post_info_date"> 28.01.2016</div>
+							</div>
+			<div class="post_content">
+				<p>Праздник Крещения прошёл вечером 18 января на нашем озере. Воду освящал отец Сергий из Ракова, а на купания и в качестве зрителей собралось несколько сотен человек! По ссылке под фото смотрите альбом с этого вечера:</p>
+<div id="attachment_933" style="width: 810px" class="wp-caption alignleft"><a target="blank_" href="http://rybalkatut.by/gallery/events/kreshenie-2016/" rel="attachment wp-att-933"><img aria-describedby="caption-attachment-933" src="http://rybalkatut.by/wp-content/uploads/2016/01/IMG_2101_web.jpg" alt="Крещение 2016" width="800" height="533" class="size-full wp-image-933" srcset="http://rybalkatut.by/wp-content/uploads/2016/01/IMG_2101_web.jpg 800w,http://rybalkatut.by/wp-content/uploads/2016/01/IMG_2101_web-120x80.jpg 120w" sizes="(max-width: 800px) 100vw, 800px"></a><p id="caption-attachment-933" class="wp-caption-text"><a target="blank_" href="http://rybalkatut.by/gallery/events/kreshenie-2016/">Крещение 2016</a></p></div>
+<p>Любителей свежего воздуха и уютной атмосферы приглашаем на зимние пикники в нашем отапливаемом доме-беседке. У нас появились новые фотографии — топка, умывальник-бочка и нарядная ёлочка на веранде (новогодняя атмосфера здесь будет ещё долго :-). <a href="http://rybalkatut.by/gallery/arbors-and-facilities/vip-besedka-domik/">Смотрите фотографии</a> в альбоме.</p>
+<p>Дом-беседка <strong>подходит для корпоративов</strong> и просто отдыха на природе! Вмещает компанию до 50 человек и доступен для бронирования и аренды! (от 150тыс./чел.)<br>
+Смотрите <a href="http://rybalkatut.by/price/">цены</a> и уточняйте по телефонам.</p>
+<a href="http://rybalkatut.by/gallery/arbors-and-facilities/vip-besedka-domik/"><img src="http://rybalkatut.by/wp-content/uploads/2015/12/IMG_2128_web.jpg" alt="зимний дом-беседка" width="300" height="225" class="size-medium wp-image-765"></a>
+<a href="http://rybalkatut.by/gallery/arbors-and-facilities/vip-besedka-domik/"><img src="http://rybalkatut.by/wp-content/uploads/2016/01/IMG_2019_web.jpg" alt="новогодняя атмосфера в доме-беседке" width="300" height="225" class="size-medium wp-image-766"></a>
+							</div>
+		</div>
+		<div class="post_info_bootom">
+			<div class="post_meta"><ul><li><a href="http://rybalkatut.by/tag/%d0%b1%d0%b5%d1%81%d0%b5%d0%b4%d0%ba%d0%b8/" rel="tag">беседки</a></li><li><a href="http://rybalkatut.by/tag/%d0%b7%d0%b8%d0%bc%d0%bd%d0%b8%d0%b9-%d1%81%d0%b5%d0%b7%d0%be%d0%bd/" rel="tag">зимний сезон</a></li><li><a href="http://rybalkatut.by/tag/%d0%ba%d0%be%d1%80%d0%bf%d0%be%d1%80%d0%b0%d1%82%d0%b8%d0%b2%d1%8b/" rel="tag">корпоративы</a></li><li><a href="http://rybalkatut.by/tag/%d0%be%d1%82%d0%b4%d1%8b%d1%85/" rel="tag">отдых</a></li><li><a href="http://rybalkatut.by/tag/%d1%84%d0%be%d1%82%d0%be/" rel="tag">фото</a></li></ul></div>  
+		</div>		
+			<div class="post-898 post type-post status-publish format-standard hentry category-news tag-17 tag-11 tag-15 tag-19" id="post-898">
+			<h2 class="post_title_h2"><a href="http://rybalkatut.by/%d0%b7%d0%b8%d0%bc%d0%bd%d1%8f%d1%8f-%d1%80%d1%8b%d0%b1%d0%b0%d0%bb%d0%ba%d0%b0-%d0%bb%d1%91%d0%b4-%d1%83%d0%b6%d0%b5-15%d1%81%d0%bc/">Зимняя рыбалка: лёд уже 15см</a></h2>
+			<div class="post_info_top">
+				<div class="post_info_date"> 04.01.2016</div>
+							</div>
+			<div class="post_content">
+				<p>Пора выходить на лёд!<br>
+Приглашаем порыбачить и отдохнуть в эти солнечные дни у нас. Доступна отапливаемая беседка.</p>
+<p>И конечно же всех с Новым Годом и Рождеством!</p>
+							</div>
+		</div>
+		<div class="post_info_bootom">
+			<div class="post_meta"><ul><li><a href="http://rybalkatut.by/tag/%d0%b1%d0%b5%d1%81%d0%b5%d0%b4%d0%ba%d0%b8/" rel="tag">беседки</a></li><li><a href="http://rybalkatut.by/tag/%d0%b7%d0%b8%d0%bc%d0%bd%d0%b8%d0%b9-%d1%81%d0%b5%d0%b7%d0%be%d0%bd/" rel="tag">зимний сезон</a></li><li><a href="http://rybalkatut.by/tag/%d0%be%d1%82%d0%b4%d1%8b%d1%85/" rel="tag">отдых</a></li><li><a href="http://rybalkatut.by/tag/%d1%80%d1%8b%d0%b1%d0%b0%d0%bb%d0%ba%d0%b0/" rel="tag">рыбалка</a></li></ul></div>  
+		</div>		
+			<div class="post-849 post type-post status-publish format-standard hentry category-news tag-17 tag-11 tag-18 tag-16 tag-9" id="post-849">
+			<h2 class="post_title_h2"><a href="http://rybalkatut.by/%d0%b1%d0%be%d0%bb%d1%8c%d1%88%d0%be%d0%b9-%d0%be%d1%82%d0%b0%d0%bf%d0%bb%d0%b8%d0%b2%d0%b0%d0%b5%d0%bc%d1%8b%d0%b9-%d0%b4%d0%be%d0%bc-%d0%b1%d0%b5%d1%81%d0%b5%d0%b4%d0%ba%d0%b0-%d0%b8-%d0%bf%d0%be/">Большой отапливаемый дом-беседка и подводная рыбалка</a></h2>
+			<div class="post_info_top">
+				<div class="post_info_date"> 19.12.2015</div>
+							</div>
+			<div class="post_content">
+				<p>Наша большая беседка-дом теперь отапливается!<br>
+Приглашаем провести выходные и наступающие зимние праздники.<br>
+Стоимость (на 19.12.15) — 2 млн.руб./сутки, или 150 тыс.с человека в день при компании от 10 человек.</p>
+<p>(Смотрите <a href="http://rybalkatut.by/gallery/arbors-and-facilities/vip-besedka-domik/" target="blank">альбом с фотографиями дома-беседки</a>)</p>
+<p><span style="font-size:1.3em; color:#416e91">Вниманию подводных охотников:</span> за текущую оттепель у нас<br><span style="color:#416e91"><b>снова сошёл лёд</b></span>. Ловите момент для последних погружений в этом году!</p>
+<p><a href="http://rybalkatut.by/wp-content/uploads/2015/12/7.jpg"><img src="http://rybalkatut.by/wp-content/uploads/2015/12/7.jpg" alt="VIP беседка-домик (фото №7)" width="864" height="600" class="alignleft size-full wp-image-834"></a></p>
+							</div>
+		</div>
+		<div class="post_info_bootom">
+			<div class="post_meta"><ul><li><a href="http://rybalkatut.by/tag/%d0%b1%d0%b5%d1%81%d0%b5%d0%b4%d0%ba%d0%b8/" rel="tag">беседки</a></li><li><a href="http://rybalkatut.by/tag/%d0%b7%d0%b8%d0%bc%d0%bd%d0%b8%d0%b9-%d1%81%d0%b5%d0%b7%d0%be%d0%bd/" rel="tag">зимний сезон</a></li><li><a href="http://rybalkatut.by/tag/%d0%ba%d0%be%d1%80%d0%bf%d0%be%d1%80%d0%b0%d1%82%d0%b8%d0%b2%d1%8b/" rel="tag">корпоративы</a></li><li><a href="http://rybalkatut.by/tag/%d0%bf%d0%be%d0%b4%d0%b2%d0%be%d0%b4%d0%bd%d0%b0%d1%8f-%d1%80%d1%8b%d0%b1%d0%b0%d0%bb%d0%ba%d0%b0/" rel="tag">подводная рыбалка</a></li><li><a href="http://rybalkatut.by/tag/%d1%84%d0%be%d1%82%d0%be/" rel="tag">фото</a></li></ul></div>  
+		</div>		
+			<div class="post-764 post type-post status-publish format-standard hentry category-news tag-17 tag-18 tag-15 tag-7 tag-9" id="post-764">
+			<h2 class="post_title_h2"><a href="http://rybalkatut.by/%d0%b1%d0%be%d0%bb%d1%8c%d1%88%d0%b0%d1%8f-%d0%b1%d0%b5%d1%81%d0%b5%d0%b4%d0%ba%d0%b0-%d0%b2%d0%bc%d0%b5%d1%81%d1%82%d0%b8%d0%bc%d0%be%d1%81%d1%82%d1%8c-%d0%be%d0%ba%d0%be%d0%bb%d0%be-50-%d1%87%d0%b5/">Большая беседка (вместимость около 50 чел.)</a></h2>
+			<div class="post_info_top">
+				<div class="post_info_date"> 09.08.2015</div>
+							</div>
+			<div class="post_content">
+				<p>Идёт работа над большой беседкой-терассой для корпоративов, дней рождения и любых других мероприятий и отдыха большой компанией. Приезжайте смотреть!<br>
+Стоимость — 1млн. бел. руб./день со всей компании</p>
+<a href="http://rybalkatut.by/wp-content/uploads/2015/08/CAM00057.jpg"><img src="http://rybalkatut.by/wp-content/uploads/2015/08/CAM00057-300x225.jpg" alt="в большой беседке" width="300" height="225" class="size-medium wp-image-765"></a>
+<a href="http://rybalkatut.by/wp-content/uploads/2015/08/CAM00070.jpg"><img src="http://rybalkatut.by/wp-content/uploads/2015/08/CAM00070-300x225.jpg" alt="в большой беседке" width="300" height="225" class="size-medium wp-image-766"></a>
+<a href="http://rybalkatut.by/wp-content/uploads/2015/08/CAM00071.jpg"><img src="http://rybalkatut.by/wp-content/uploads/2015/08/CAM00071-300x225.jpg" alt="в большой беседке" width="300" height="225" class="size-medium wp-image-767"></a>
+							</div>
+		</div>
+		<div class="post_info_bootom">
+			<div class="post_meta"><ul><li><a href="http://rybalkatut.by/tag/%d0%b1%d0%b5%d1%81%d0%b5%d0%b4%d0%ba%d0%b8/" rel="tag">беседки</a></li><li><a href="http://rybalkatut.by/tag/%d0%ba%d0%be%d1%80%d0%bf%d0%be%d1%80%d0%b0%d1%82%d0%b8%d0%b2%d1%8b/" rel="tag">корпоративы</a></li><li><a href="http://rybalkatut.by/tag/%d0%be%d1%82%d0%b4%d1%8b%d1%85/" rel="tag">отдых</a></li><li><a href="http://rybalkatut.by/tag/%d1%81%d1%82%d1%80%d0%be%d0%b8%d0%bc/" rel="tag">строим</a></li><li><a href="http://rybalkatut.by/tag/%d1%84%d0%be%d1%82%d0%be/" rel="tag">фото</a></li></ul></div>  
+		</div>		
+		<div class="page_navi">
+</div>
+	
+	</div>
+	<div id="sidebar" class="widget-area">
+		<ul class="xoxo"><li id="text-2" class="widget widget_text">
+<h3 class="widget_title">Контакты</h3>
+			<div class="textwidget"><p>Зам.главы ФХ Зинченко Сергей Иванович<br>
+(+375 29) 771-88-29 (МТС)<br>
+(+375 29) 626-84-26 (<b>life</b>)<br>
+8-0177-263-216 (Стационарный телефон)</p>
+<p>Глава ФХ Зинченко Татьяна Владимировна<br>
+(+375 29) 324-02-81 (velcom)<br>
+(+375 29) 874-24-08 (МТС)</p>
+<p>Возможно <a style="color: #06c;" href="http://rybalkatut.by/booking/">бронирование мест</a>!</p>
+<p>E-mail: <a href="mailto:zois_52@mail.ru">zois_52@mail.ru</a></p>
+<p>Skype: <a href="skype:zois_family?call">zois_family</a></p>
+<p>Схема проезда — <a style="color: #06c;" href="http://rybalkatut.by/#route">тут</a> и на <a style="color: #06c;" href="https://yandex.ru/maps/?ll=27.032001%2C53.965287&z=14&rl=27.40813248%2C53.91160729~-0.00583649%2C-0.00060811~-0.01270294%2C-0.00162166~-0.02197266%2C-0.00243262~-0.00720978%2C0.00101361~-0.03089905%2C0.00810797~-0.01510620%2C0.00222941~-0.00995636%2C0.00060800~-0.01373291%2C-0.00162136~-0.02883911%2C-0.00364828~-0.00892639%2C-0.00121617~-0.01132965%2C0.00060809~-0.01338959%2C0.00202689~-0.04257202%2C0.00587743~-0.02059937%2C0.00405292~-0.02334595%2C0.00891503~-0.02128601%2C0.01235630~-0.01064301%2C0.01134025~-0.01785278%2C0.00627631~-0.00952721%2C0.00551629~0.00016377%2C0.00134960~0.00180998%2C-0.00010742~0.00034332%2C-0.00101208~-0.00377655%2C-0.00192302~-0.00562191%2C-0.00056934~-0.00079393%2C0.00031629~-0.00139475%2C-0.00130316~-0.00656605%2C0.00077177~-0.00326157%2C0.00016447~-0.00433445%2C-0.00044282~-0.00403404%2C0.00086033~-0.00326157%2C0.00065789~-0.00197411%2C0.00055667~-0.00283241%2C-0.00217610~-0.00197411%2C0.00040486~-0.00180244%2C0.00015182~-0.00532150%2C-0.00055669~-0.00861229%2C0.00042147~-0.00746727%2C-0.00005061~-0.00660896%2C-0.00075912~-0.01253128%2C-0.00151829~-0.00120163%2C-0.00012653~-0.00028911%2C-0.00140434~0.00021458%2C-0.00053143~0.00094414%2C-0.00015184~0.00111580%2C-0.00027837~0.00042915%2C-0.00078452~0.00004292%2C-0.00045553&l=pmap">Яндекс.Карте</a></p>
+</div>
+		</li>
+<li id="text-4" class="widget widget_text">
+<h3 class="widget_title">Мы в социальных сетях:</h3>
+			<div class="textwidget"><a href="https://www.facebook.com/rybalkatutby" target="_blank"><img src="http://rybalkatut.by/wp-content/uploads/2016/05/social_buttons_rybalkatut_FB.png"></a>
+
+   
+
+<a href="https://vk.com/rybalkatutby" target="_blank"><img src="http://rybalkatut.by/wp-content/uploads/2016/05/social_buttons_rybalkatut_VK.png"></a>
+
+   
+
+<a href="https://ok.ru/group/53183267209398" target="_blank"><img src="http://rybalkatut.by/wp-content/uploads/2016/05/social_buttons_rybalkatut_OK.png"></a>
+
+   
+
+<a href="https://www.instagram.com/vygonichanka" target="_blank"><img src="http://rybalkatut.by/wp-content/uploads/2016/09/social_buttons_rybalkatut_INSTA.png"></a></div>
+		</li>
+<li id="text-3" class="widget widget_text">
+<h3 class="widget_title">Будьте в курсе новостей!</h3>
+			<div class="textwidget"><div id="mc_embed_signup">
+<form action="//rybalkatut.us12.list-manage.com/subscribe/post?u=8df00ee46128c6aa56db79f3a&id=5f97ada3ca" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+    <div id="mc_embed_signup_scroll">
+	<input type="email" style="padding-left: 8px; width: 170px" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Введите ваш e-mail" required=""><div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8df00ee46128c6aa56db79f3a_5f97ada3ca" tabindex="-1" value=""></div>
+    <div class="clear"><input style="background-color:#98c5e3; width: 181px; font-size: 0.98em; cursor: pointer" type="submit" value="Подписаться" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<br><br></div>
+		</li>
+		<li id="recent-posts-2" class="widget widget_recent_entries">
+		<h3 class="widget_title">Новости</h3>
+		<ul><li>
+					<a href="http://rybalkatut.by/%d0%b7%d0%b0%d0%b2%d1%82%d1%80%d0%b0-%d0%b7%d0%b0%d0%bf%d1%83%d1%81%d0%ba%d0%b0%d0%b5%d0%bc-%d0%ba%d0%b0%d1%80%d0%bf%d0%b0/">Завтра запускаем карпа</a>
+											<span class="post-date">13.04.2019</span>
+									</li>
+											<li>
+					<a href="http://rybalkatut.by/%d0%bf%d1%80%d0%be%d0%b2%d0%be%d0%b4%d1%8b-%d0%b7%d0%b8%d0%bc%d1%8b/">Проводы зимы</a>
+											<span class="post-date">06.03.2019</span>
+									</li>
+											<li>
+					<a href="http://rybalkatut.by/iceskating-feb-2019/">Приглашаем кататься на коньках</a>
+											<span class="post-date">21.02.2019</span>
+									</li>
+											<li>
+					<a href="http://rybalkatut.by/%d0%b3%d0%b4%d0%b5-%d0%b8-%d0%ba%d0%b0%d0%ba-%d0%be%d0%ba%d1%83%d0%bd%d0%b0%d1%82%d1%8c%d1%81%d1%8f-%d0%bd%d0%b0-%d0%ba%d1%80%d0%b5%d1%89%d0%b5%d0%bd%d0%b8%d0%b5-%d1%80%d0%b5%d0%bf%d0%be%d1%80%d1%82/">Где и как окунаться на крещение. РЕПОРТАЖ</a>
+											<span class="post-date">16.01.2019</span>
+									</li>
+											<li>
+					<a href="http://rybalkatut.by/%d0%bf%d1%80%d0%b8%d0%b3%d0%bb%d0%b0%d1%88%d0%b0%d0%b5%d0%bc-%d0%bd%d0%b0-%d0%ba%d1%80%d0%b5%d1%89%d0%b5%d0%bd%d0%b8%d0%b5-2019/">Приглашаем на Крещение 2019!</a>
+											<span class="post-date">15.01.2019</span>
+									</li>
+					</ul></li>
+		
+		</ul></div><div class="clear"></div>
+</div>
+	<div id="footer">
+		<div id="copyright">
+			<div id="site-info">
+				Copyright © 2013-2016 Праграмаванне: <a href="mailto:nullbsd@gmail.com" rel="home">Сакалоў Аляксей</a>			</div>
+			<div id="site-generator">
+							</div>
+		</div>
+		<a id="return_top" href="#wrapper" rel="nofollow" title="Вверх"> Δ  Вверх</a>
+	</div>
+</div>
+<script type="text/javascript" src="http://rybalkatut.by/wp-content/themes/dot-b/all.js"></script></body></html>
