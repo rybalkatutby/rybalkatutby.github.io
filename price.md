@@ -4,7 +4,7 @@ layout: page
 title: "Цены"
 crawlertitle: "Why and how this blog was created"
 permalink: /price/
-summary: "Цены"
+summary: "Платные услуги"
 active: about
 ---
 
