@@ -10,4 +10,4 @@ active: about
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
-{% include image-gallery.html folder="/wp-content/uploads/2019/04/" %}
+{% include image-gallery.html folder="/wp-content/uploads/2019/04" %}
