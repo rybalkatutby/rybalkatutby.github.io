@@ -1,7 +1,7 @@
 ---
 bg: "owl.jpg"
 layout: page
-title: "Галерея"
+title: "Галерея тест"
 crawlertitle: "Why and how this blog was created"
 permalink: /gallery/
 summary: "About this blog"
