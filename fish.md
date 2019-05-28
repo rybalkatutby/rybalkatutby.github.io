@@ -1,14 +1,14 @@
 ---
-bg: "fish.jpg"
+bg: "page_fish.jpg"
 layout: page
 title: "Рыба"
-crawlertitle: "Why and how this blog was created"
+crawlertitle: "Рыба: что у нас водится, и что мы запускали — Выгоничанка"
 permalink: /fish/
 summary: "Что у нас водится, и что мы запускали"
 active: about
 ---
 
-<img src="/images/fish.jpg" alt="Рыба на озере Выгоничанка" width="702" />
+<img src="/images/fish_species.jpg" alt="Рыба на озере Выгоничанка" width="702" />
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Fish Species")
 
 # Зарыбления
