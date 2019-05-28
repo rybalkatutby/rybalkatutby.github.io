@@ -1,5 +1,5 @@
 ---
-bg: "pagefish.jpg"
+bg: "pagefish2.jpg"
 layout: page
 title: "Рыба"
 crawlertitle: "Рыба: что у нас водится, и что мы запускали — Выгоничанка"
