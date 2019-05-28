@@ -1,5 +1,5 @@
 ---
-bg: "pagefish2.jpg"
+bg: "pagefish.jpg"
 layout: page
 title: "Цены"
 crawlertitle: "Why and how this blog was created"
