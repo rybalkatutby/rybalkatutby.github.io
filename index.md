@@ -10,14 +10,49 @@ summary: "Платная рыбалка и отдых всего в 32км от 
 
 Мы предоставляем Вам отдых и рыбалку всего в 32 км. от Минска (Беларусь)!
 
+<!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://rybalkatut.us12.list-manage.com/subscribe/post?u=8df00ee46128c6aa56db79f3a&amp;id=5f97ada3ca" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2>Будьте в курсе наших новостей!</h2>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">E-mail  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8df00ee46128c6aa56db79f3a_5f97ada3ca" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+
 Наше озеро небольшое (2,5 гектара), с островом, является проточным, а также частично питается водой из подземных ключей. О чистоте воды в озере свидетельствуют и представители его фауны — раки и мидии.
 
 Береговая территория обустроена для отдыха: установлены мангалы, столы и места для сиденья, есть две **беседки.** Одна из них — отапливаемая, в стиле [охотничьего домика](https://www.instagram.com/p/BKsqO-Cgqw9/) — располагается на берегу под живописным дубом, с видом на озеро, и вмещает компании до 50 человек. Вторая поменьше (до 20 чел.), находится [на острове](https://www.instagram.com/p/BKofbIZA3y8/), к которому ведёт [паромная переправа](https://www.instagram.com/p/BKogGaDAKY8/). 
 
 Возможно также [проживание](http://galakt.by/) в номерах базы «Галактика», расположенной по соседству, в 1,5 км, среди соснового леса. Номера-люкс и недорогие спальные места.
 
+## Контакты
++375 (29) 771-88-29 (МТС)
++375 (29) 626-84-26 (life)
+(8-0177) 263-216 (стационарный)
 
-<p><img class="alwaysThinglink" style="max-width: 100%;" src="//cdn.thinglink.me/api/image/737097281739685888/1024/10/scaletowidth#tl-737097281739685888;1043138249'"><script async="" charset="utf-8" src="//cdn.thinglink.me/jse/embed.js"></script></p>
+E-mail: <a href="mailto:zois_52@mail.ru">zois_52@mail.ru</a>
+Skype: <a href="skype:zois_family?call">zois_family</a>
+______________________________
 
 ### Как добраться
 [Google Maps](https://www.google.de/maps/place/Vygonichanka/@53.9599488,26.9980429,14z/data=!4m12!1m6!3m5!1s0x0000000000000000:0x8d177825c0207ae4!2sVygonichanka!8m2!3d53.9609209!4d27.0038795!3m4!1s0x0000000000000000:0x8d177825c0207ae4!8m2!3d53.9609209!4d27.0038795?hl=en) | [Яндекс.Карты](https://yandex.by/maps/?l=pmap&ll=27.032001%2C53.965287&rl=27.40813248%2C53.91160729~-0.00583649%2C-0.00060811~-0.01270294%2C-0.00162166~-0.02197266%2C-0.00243262~-0.00720978%2C0.00101361~-0.03089905%2C0.00810797~-0.01510620%2C0.00222941~-0.00995636%2C0.00060800~-0.01373291%2C-0.00162136~-0.02883911%2C-0.00364828~-0.00892639%2C-0.00121617~-0.01132965%2C0.00060809~-0.01338959%2C0.00202689~-0.04257202%2C0.00587743~-0.02059937%2C0.00405292~-0.02334595%2C0.00891503~-0.02128601%2C0.01235630~-0.01064301%2C0.01134025~-0.01785278%2C0.00627631~-0.00952721%2C0.00551629~0.00016377%2C0.00134960~0.00180998%2C-0.00010742~0.00034332%2C-0.00101208~-0.00377655%2C-0.00192302~-0.00562191%2C-0.00056934~-0.00079393%2C0.00031629~-0.00139475%2C-0.00130316~-0.00656605%2C0.00077177~-0.00326157%2C0.00016447~-0.00433445%2C-0.00044282~-0.00403404%2C0.00086033~-0.00326157%2C0.00065789~-0.00197411%2C0.00055667~-0.00283241%2C-0.00217610~-0.00197411%2C0.00040486~-0.00180244%2C0.00015182~-0.00532150%2C-0.00055669~-0.00861229%2C0.00042147~-0.00746727%2C-0.00005061~-0.00660896%2C-0.00075912~-0.01253128%2C-0.00151829~-0.00120163%2C-0.00012653~-0.00028911%2C-0.00140434~0.00021458%2C-0.00053143~0.00094414%2C-0.00015184~0.00111580%2C-0.00027837~0.00042915%2C-0.00078452~0.00004292%2C-0.00045553&z=14) | GPS-координаты: 53.960924, 27.004050
@@ -29,9 +64,13 @@ summary: "Платная рыбалка и отдых всего в 32км от 
 
 ![alt text](/images/path.png "Схема проезда")
 
+_____________________________
 
+## Объекты на территории
 
+<p><img class="alwaysThinglink" style="max-width: 100%;" src="//cdn.thinglink.me/api/image/737097281739685888/1024/10/scaletowidth#tl-737097281739685888;1043138249'"><script async="" charset="utf-8" src="//cdn.thinglink.me/jse/embed.js"></script></p>
 
+___________________________
 
 ## Реквизиты
 
@@ -45,8 +84,7 @@ summary: "Платная рыбалка и отдых всего в 32км от 
 Выдано 27 апреля 2015г. Воложинским райисполкомом
 life:) +375 29 626-84-26
 MTC: +375 29 771-88-29
-Стационарный телефон: 8-0177-263-216
- |
+Стационарный телефон: 8-0177-263-216 |
 
 |Для предоплаты и безналичного расчета | 
 |--------------------------|
@@ -61,111 +99,10 @@ MTC: +375 29 771-88-29
 velcom: +375 29 324-02-81
 MTC: +375 29 874-24-08 |
 
-
-
-
-
-<!--
-<p>Мы предоставляем Вам&nbsp;<i>отдых</i>&nbsp;и&nbsp;<i>рыбалку</i>&nbsp;всего в 32 км. от&nbsp;<i>Минска</i>&nbsp;(Беларусь)!</p>
-<table>
-<tbody>
-<tr>
-<td>
-<div id="mc_embed_signup" style="background-color: #cce2ee; border: 1px solid #72a7d2; padding-top: 10px; padding-left: 15px; text-align: left; width: 280px;"><form id="mc-embedded-subscribe-form" class="validate" action="//rybalkatut.us12.list-manage.com/subscribe/post?u=8df00ee46128c6aa56db79f3a&amp;id=5f97ada3ca" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
-<div id="mc_embed_signup_scroll">
-<div class="mc-field-group" style="display: flex;"><!--	<label for="mce-EMAIL">Email Address </label> --><br><input id="mce-EMAIL" class="required email" style="width: 240px; padding-left: 8px;" name="EMAIL" type="email" value="" placeholder="Введите ваш e-mail"></div>
-<div id="mce-responses" class="clear">
-<div id="mce-error-response" class="response" style="display: none;">&nbsp;</div>
-<div id="mce-success-response" class="response" style="display: none;">&nbsp;</div>
-</div>
-<p><!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--></p>
-<div style="position: absolute; left: -5000px;" aria-hidden="true"><input tabindex="-1" name="b_8df00ee46128c6aa56db79f3a_5f97ada3ca" type="text" value=""></div>
-<div class="clear"><input id="mc-embedded-subscribe" class="button" style="background-color: #98c5e3; width: 240px; font-size: 1em; cursor: pointer;" name="subscribe" type="submit" value="Хочу быть в курсе новостей!"></div>
-</div>
-</form></div>
-</td>
-<td><!-- add an iiiiiiiimage heeeeeeeeeeere --></td>
-</tr>
-</tbody>
-</table>
-<p><!-- Старая форма подписки feedburner
-
-
-
-<form style="border:1px solid #72a7d2; padding:5px; text-align:left; width: 460px" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=rybalkatut/zuro', 'popupwindow', 'scrollbars=yes,width=550, height=640');return true"> <input type="text" style="font-size: 1.1em; width:200px" placeholder=" Ваша электронная почта" name="email"/> &nbsp; <input type="hidden" value="rybalkatut/zuro" name="uri"/><input type="hidden" name="loc" value="ru_RU"/><input type="submit" style="background-color:#98c5e3; font-size: 0.98em; cursor: pointer" value="&nbsp;Хочу быть в курсе новостей!&nbsp;" /></form>
-
-
---></p>
-<p><b><span style="color: green;">Содержание страницы:</span></b> <span style="color: green; font-size: 0.9em;">(нажмите, чтобы прокрутить к нужному блоку)</span></p>
-<div style="margin-left: 20px; margin-top: -10px;"><!--<a href="#contacts">Наши контакты</a>--><br><a href="#requisites">Контакты и реквизиты</a><br><a href="#route">Как добраться</a><br><a href="#plan">Объекты на территории</a><br><a href="#textabout">Описание</a></div>
-<p>&nbsp;</p>
-<p><!--<b>
-
-
-<div id="contacts" style="color: green;">Наши контакты:</div>
-
-
-</b>
+________________________
 +375 (29) 771-88-29 (МТС)
-+375 (29) 626-84-26 (Velcom)
-(8-0177) 232-616 (городской)
-Возможно <a href="http://rybalkatut.by/booking/">бронирование</a> мест!
++375 (29) 626-84-26 (life)
+(8-0177) 263-216 (стационарный)
 
 E-mail: <a href="mailto:zois_52@mail.ru">zois_52@mail.ru</a>
 Skype: <a href="skype:zois_family?call">zois_family</a>
---></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<div id="requisites" style="color: green;">Наши контакты и реквизиты:</div>
-<p>&nbsp;</p>
-<table border="1">
-<thead>
-<tr>
-<td><span style="color: green;">По организации отдыха:</span></td>
-<td><span style="color: green;">По рыбалке:</span></td>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td width="360px"><strong><span style="font-family: Georgia;">Фермерское хозяйство «Выгоничанка»</span></strong><br>Минская обл., Воложинский р-н,<br>Раковский с/с, д. Выгоничи<br>р\с BY89AKBB30120605551526000000<br>ЦБУ № 605 ф-ла № 500 МУ ОАО «АСБ Беларусбанк»<br>БИК AKBBBY21500<br>УНП 691359206<br><b>Глава ФХ <span style="font-family: Georgia;">«Выгоничанка»</span> Зинченко Татьяна Владимировна</b><br>velcom: +375 29 324-02-81<br>MTC: +375 29 874-24-08</td>
-<td><strong><span style="font-family: Georgia;">ИП Зинченко Сергей Иванович</span></strong><br>Минская область, Воложинский р-н<br>а/г Раков, ул. Бестужева 22Б<br>УНП 191398312<br>Свидетельство о регистрации № 0560613<br>Выдано 27 апреля 2015г. Воложинским райисполкомом<br>life:) +375 29 626-84-26<br>MTC: +375 29 771-88-29<br>Стационарный телефон:&nbsp;8-0177-263-216</td>
-</tr>
-</tbody>
-</table>
-<p>&nbsp;</p>
-<p><!--
-
-
-<p style="text-align: left;"><b><span style="color: green;">Корпоративы:</span></b></p>
-
-
-<b>По вопросам организации корпоративных мероприятий</b> обращаться по телефону:
-<b>(+375 44) 7-105-106</b><i>— Светлана, менеджер компании развлечений «АКАДЕМИЯ ИГРЫ».</i>
-&nbsp;
-По предварительной договорённости возможны дополнительные услуги: лошади, тент, звук, кейтеринг и многое другое. Разработаны специальные развлекательные программы.
-
-&nbsp;
-бывший БОКОВОЙ ВИДЖЕТ:
-(+375 44) 7-105-106 (Vel.)
-
-<i>– Светлана, менеджер компании развлечений «АКАДЕМИЯ ИГРЫ»</i>
-
-
---></p>
-<p>&nbsp;</p>
-<div id="route" style="color: green;">Как добраться:</div>
-<p>Мы на карте&nbsp;<a href="https://www.google.de/maps/place/%D0%92%D1%8B%D0%B3%D0%BE%D0%BD%D0%B8%D1%87%D0%B0%D0%BD%D0%BA%D0%B0/@53.9625746,27.0313452,14z/data=!4m2!3m1!1s0x0000000000000000:0x8d177825c0207ae4?hl=en" target="blank">Google Maps</a>;<br><b>Маршрут</b> на <a href="https://yandex.ru/maps/?ll=27.032001%2C53.965287&amp;z=14&amp;rl=27.40813248%2C53.91160729~-0.00583649%2C-0.00060811~-0.01270294%2C-0.00162166~-0.02197266%2C-0.00243262~-0.00720978%2C0.00101361~-0.03089905%2C0.00810797~-0.01510620%2C0.00222941~-0.00995636%2C0.00060800~-0.01373291%2C-0.00162136~-0.02883911%2C-0.00364828~-0.00892639%2C-0.00121617~-0.01132965%2C0.00060809~-0.01338959%2C0.00202689~-0.04257202%2C0.00587743~-0.02059937%2C0.00405292~-0.02334595%2C0.00891503~-0.02128601%2C0.01235630~-0.01064301%2C0.01134025~-0.01785278%2C0.00627631~-0.00952721%2C0.00551629~0.00016377%2C0.00134960~0.00180998%2C-0.00010742~0.00034332%2C-0.00101208~-0.00377655%2C-0.00192302~-0.00562191%2C-0.00056934~-0.00079393%2C0.00031629~-0.00139475%2C-0.00130316~-0.00656605%2C0.00077177~-0.00326157%2C0.00016447~-0.00433445%2C-0.00044282~-0.00403404%2C0.00086033~-0.00326157%2C0.00065789~-0.00197411%2C0.00055667~-0.00283241%2C-0.00217610~-0.00197411%2C0.00040486~-0.00180244%2C0.00015182~-0.00532150%2C-0.00055669~-0.00861229%2C0.00042147~-0.00746727%2C-0.00005061~-0.00660896%2C-0.00075912~-0.01253128%2C-0.00151829~-0.00120163%2C-0.00012653~-0.00028911%2C-0.00140434~0.00021458%2C-0.00053143~0.00094414%2C-0.00015184~0.00111580%2C-0.00027837~0.00042915%2C-0.00078452~0.00004292%2C-0.00045553&amp;l=pmap" target="_blank" rel="noopener">Яндекс.Карте</a>;<br>GPS-координаты: 53.960924, 27.004050</p>
-<p><b>Общественным транспортом: </b><br>- Прямой автобус «Минск–Выгоничи» со ст.м. «Каменная Горка» (ежедневно <i>из Минска:</i> 7.03; 14.43; 17.03; 20.03 // обратно <i>из Выгонич:</i> 6.15; 8.57; 15.30; 17.52);<br>- <a href="http://www.marshrutka.lpy.by/e/245-minsk-rakov" target="_blank" rel="noopener">Расписание маршрутки 1500ТК</a> «Минск–Раков» с ул. Кирова (возле ж/д вокзала в Минске) до Ракова (на ст.м. «Каменная горка» прибывает через 15-20мин после отправления с ул.Кирова);<br>- Любой пригородный/междугородный автобус , следующий через <strong>Выгоничи </strong>(или Раков, что в 3 километрах). Советуем искать расписание в двух источниках: и на сайте <a href="http://www.minsktrans.by/ru/routes/prigorodnye-i-mezhdugorodnye-marshruty.html" target="_blank" rel="noopener">КУП «Минсктранс»</a>, и в <a href="http://ticketbus.by/" target="_blank" rel="noopener">системе продажи билетов</a>. Также можно уточинть в кассах и справочной «Минсктранса».</p>
-<p><img class="alignnone size-full wp-image-6" src="/images/path.png" alt="Выгоничанка схема проезда на рыбалку" width="640" height="489"></p>
-<p>&nbsp;</p>
-<div id="plan" style="color: green;">Объекты на территории:</div>
-<p>&nbsp;</p>
-<p><img class="alwaysThinglink" style="max-width: 100%;" src="//cdn.thinglink.me/api/image/737097281739685888/1024/10/scaletowidth#tl-737097281739685888;1043138249'"><script async="" charset="utf-8" src="//cdn.thinglink.me/jse/embed.js"></script></p>
-<p>&nbsp;</p>
-<div id="textabout">
-<p>Наша база отдыха располагается на озере на окраине д. <i>Выгоничи</i>, что в 3км от небезызвестного местечка <i>Раков</i>.</p>
-<p>Озеро площадью 2,5га, примечательно наличием острова, дамбы, является проточным, также частично питается водой из подземных ключей. О чистоте воды в озере свидетельствуют и представители его фауны - раки и мидии.</p>
-<p>Береговая территория обустроена для отдыха: установлены беседки с мангалами, а одна из них располагается на живописном острове, к которому подведён паром. Достроена и готова к принятию гостей <b>большая отапливаемая беседка-домик</b> – <a href="http://rybalkatut.by/booking/" target="blank">бронируйте</a> её на выходные и праздники! А также <a href="http://rybalkatut.by/gallery/arbors-and-facilities/vip-besedka-domik/" target="blank">смотрите её фото</a> в нашей галерее.</p>
-<p>Возможно также проживание в номерах базы «<a title="Спортивно-оздоровительная база «Галактика»" href="http://galakt.by/" target="_blank" rel="noopener">Галактика</a>», расположенной в 1,5 км, среди соснового леса. Номера-люкс и недорогие спальные места.</p>
-</div>
--->
