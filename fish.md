@@ -8,7 +8,6 @@ summary: "Что у нас водится, и что мы запускали"
 active: about
 ---
 
-<img src="/images/fish_species.jpg" alt="Рыба на озере Выгоничанка" width="702" />
 ![alt text](/images/fish_species.jpg "Fish Species")
 
 # Зарыбления
