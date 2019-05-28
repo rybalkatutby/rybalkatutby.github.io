@@ -31,7 +31,7 @@ summary: "Платная рыбалка и отдых всего в 32км от 
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:420px;}
+	#mc_embed_signup{background:#98c5e3; clear:left; font:14px Helvetica,Arial,sans-serif;  width:420px;}
 	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
