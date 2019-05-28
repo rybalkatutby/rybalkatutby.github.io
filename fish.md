@@ -1,10 +1,10 @@
 ---
-bg: "owl.jpg"
+bg: "fish.jpg"
 layout: page
 title: "Рыба"
 crawlertitle: "Why and how this blog was created"
 permalink: /fish/
-summary: "Зарыбление"
+summary: "Что у нас водится, и что мы запускали"
 active: about
 ---
 
