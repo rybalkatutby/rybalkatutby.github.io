@@ -1,5 +1,5 @@
 ---
-bg: "page_fish.jpg"
+bg: "pagefish.jpg"
 layout: page
 title: "Рыба"
 crawlertitle: "Рыба: что у нас водится, и что мы запускали — Выгоничанка"
@@ -9,7 +9,7 @@ active: about
 ---
 
 <img src="/images/fish_species.jpg" alt="Рыба на озере Выгоничанка" width="702" />
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Fish Species")
+![alt text](/images/fish_species.jpg "Fish Species")
 
 # Зарыбления
 
