@@ -3,8 +3,8 @@ bg: "tag.jpg"
 layout: page
 permalink: /category/news/
 title: "Новости"
-crawlertitle: "All articles"
-summary: "Posts about jekyll"
+crawlertitle: "Новости"
+summary: "meow"
 active: archive
 ---
 
