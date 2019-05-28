@@ -1,5 +1,5 @@
 ---
-bg: "owl.jpg"
+bg: "pageair.jpg"
 layout: page
 title: "Галерея тест"
 crawlertitle: "Why and how this blog was created"
