@@ -9,6 +9,7 @@ active: about
 ---
 
 <img src="/images/fish.jpg" alt="Рыба на озере Выгоничанка" width="702" />
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Fish Species")
 
 # Зарыбления
 
