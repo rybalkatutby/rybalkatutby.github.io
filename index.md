@@ -1,7 +1,7 @@
 ---
 bg: "rails.jpg"
 layout: page 
-crawlertitle: "Jekyll blog"
+crawlertitle: "Выгоничанка"
 title: "Выгоничанка"
 summary: "Платная рыбалка и отдых всего в 32км от Минска"
 ---
