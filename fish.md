@@ -8,7 +8,7 @@ summary: "Что у нас водится, и что мы запускали"
 active: about
 ---
 
-![alt text](/images/fish_species.jpg "Fish Species")
+![alt text](/images/fish_species.jpg "У нас водятся: карась, щука, карп, сазан, окунь, толстолобик, белый амур, плотва, линь, краснопёрка, сом, вьюн, осётр")
 
 # Зарыбления
 
