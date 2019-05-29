@@ -257,31 +257,31 @@ article {
 /*
 * Archive
 * ========================================================================== */
-.year {
+.news {
   padding: 0;
   list-style: none;
-  text-transform: uppercase;
   font-size: 13px
 }
 
-.year li {
+.news li {
   padding: 5px;
   padding: 8px 10px;
   border-bottom: 1px dotted #eae4da
 }
 
-.year a {
-  text-decoration: none
+.news a {
+  text-decoration: none;
+  font-size: 25px;
 }
 
-.year a:hover {
+.news a:hover {
   text-decoration: underline
 }
 
 .date {
   text-align: right;
   float: right;
-  color: #d4d4d4;
+  color: gray;
   display: none;
 }
 

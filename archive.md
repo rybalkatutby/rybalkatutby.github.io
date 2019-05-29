@@ -13,21 +13,13 @@ active: archive
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
 
-  <h2 class="category-key" id="{{ t | downcase }}">{{ t | capitalize }}</h2>
-
-  <ul class="year">
+  <ul class="news">
     {% for post in posts %}
-      {% if post.tags contains t %}
         <li>
-          {% if post.lastmod %}
             <a href="{{ post.url | relative_url}}">{{ post.title }}</a>
-            <span class="date">{{ post.lastmod | date: "%d-%m-%Y"  }}</span>
-          {% else %}
-            <a href="{{ post.url | relative_url}}">{{ post.title }}</a>
+            {{ post.content }}
             <span class="date">{{ post.date | date: "%d-%m-%Y"  }}</span>
-          {% endif %}
         </li>
-      {% endif %}
     {% endfor %}
   </ul>
 
