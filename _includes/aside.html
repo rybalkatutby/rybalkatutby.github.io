@@ -16,8 +16,12 @@
       </div>
 
       <p>
-        {% if page.summary %}
-          {{ page.summary }}
+        {% if page.layout == "post" %}
+          &nbsp; 
+        {%else%}
+          {% if page.summary %}
+            {{ page.summary }}
+          {% endif %}
         {% endif %}
       </p>
 
