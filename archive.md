@@ -4,7 +4,7 @@ layout: page
 permalink: /category/news/
 title: "Новости"
 crawlertitle: "Новости"
-summary: "meow"
+summary: "Будьте в курсе"
 active: archive
 ---
 
