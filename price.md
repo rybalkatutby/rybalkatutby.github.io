@@ -5,7 +5,7 @@ title: "Цены"
 crawlertitle: "Why and how this blog was created"
 permalink: /price/
 summary: "Платные услуги"
-active: about
+active: price 
 ---
 
 # Цены
