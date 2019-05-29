@@ -8,7 +8,11 @@
 
     <div class="cover-text">
       <div class="heading">
+        {% if page.layout == "post" %}
+          Новости
+        {% else %}
           {{ page.title }}
+        {% endif %}
       </div>
 
       <p>
