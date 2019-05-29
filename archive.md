@@ -8,19 +8,12 @@ summary: "meow"
 active: archive
 ---
 
-
-{% for tag in site.tags %}
-  {% assign t = tag | first %}
-  {% assign posts = tag | last %}
-
-  <ul class="year">
-    {% for post in posts %}
+  <ul class="news">
+    {% for post in site.posts %}
         <li>
             <a href="{{ post.url | relative_url}}">{{ post.title }}</a>
-            {{ post.content }}
             <span class="date">{{ post.date | date: "%d-%m-%Y"  }}</span>
+            {{ post.content }}
         </li>
-    {% endfor %}
+        {% endfor %}
   </ul>
-
-{% endfor %}
