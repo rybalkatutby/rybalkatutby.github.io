@@ -13,7 +13,7 @@ active: archive
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
 
-  <ul class="news">
+  <ul class="year">
     {% for post in posts %}
         <li>
             <a href="{{ post.url | relative_url}}">{{ post.title }}</a>
