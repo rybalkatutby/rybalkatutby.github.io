@@ -39,3 +39,6 @@ sass:
 
 
 images: '/images'
+
+plugins:
+  - jekyll-redirect-from
