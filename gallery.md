@@ -19,8 +19,10 @@ active: gallery
 | ![alt text](/wp-content/uploads/2013/03/2012_3-225x300.jpg)     | ![alt text](/wp-content/uploads/2013/03/2012_1-225x300.jpg) | ![alt text](https://raw.githubusercontent.com/rybalkatutby/rybalkatutby.github.io/master/wp-content/uploads/2013/09/IMG_20130829_122001-225x300.jpg) |
 | ![alt text](/wp-content/uploads/2018/11/IMG_20181105_162509_137-300x300.jpg)    | ![alt text](/wp-content/uploads/2018/11/IMG_20181105_162509_143-300x300.jpg)      |   ![alt text](/wp-content/uploads/2017/09/tolstolobik-2017-300x225.jpg)  |
 
-
-![alt text](https://github.com/rybalkatutby/rybalkatutby.github.io/blob/master/wp-content/uploads/2018/08/IMG-04745a215943b2d09d07268f30bce7f2-V-225x300.jpg)  ![alt text](https://github.com/rybalkatutby/rybalkatutby.github.io/blob/master/wp-content/uploads/2018/08/IMG-d0d47fe73529e2c2213a9a726d101b5d-V-300x225.jpg)  ![alt text](https://github.com/rybalkatutby/rybalkatutby.github.io/blob/master/wp-content/uploads/2018/08/IMG-3dadc9db6ddd71f6fcfa70042e2b0a39-V_-300x225.jpg)  ![alt text](https://github.com/rybalkatutby/rybalkatutby.github.io/blob/master/wp-content/uploads/2017/08/vyg_drone_photo-5_WEB-300x169.jpg)  ![alt text](https://github.com/rybalkatutby/rybalkatutby.github.io/blob/master/wp-content/uploads/2017/08/vyg_drone_photo-1_WEB-300x169.jpg)  ![alt text](https://github.com/rybalkatutby/rybalkatutby.github.io/blob/master/wp-content/uploads/2016/08/IMG_2537ed_WEB-300x200.jpg)  ![alt text](https://github.com/rybalkatutby/rybalkatutby.github.io/blob/master/wp-content/uploads/2015/09/2015_09_01_raki-web-300x159.jpg)
+| ![alt text](/wp-content/uploads/2018/08/IMG-04745a215943b2d09d07268f30bce7f2-V-225x300.jpg)       | ![alt text](/wp-content/uploads/2018/08/IMG-d0d47fe73529e2c2213a9a726d101b5d-V-300x225.jpg)    | ![alt text](/wp-content/uploads/2018/08/IMG-3dadc9db6ddd71f6fcfa70042e2b0a39-V_-300x225.jpg)  |
+| ------------- |:-------------:| -----:|
+| ![alt text](/wp-content/uploads/2017/08/vyg_drone_photo-5_WEB-300x169.jpg)     | ![alt text](wp-content/uploads/2017/08/vyg_drone_photo-1_WEB-300x169.jpg) | ![alt text](wp-content/uploads/2016/08/IMG_2537ed_WEB-300x200.jpg)    | 
+|![alt text](wp-content/uploads/2015/09/2015_09_01_raki-web-300x159.jpg)      |   ![alt text](/wp-content/uploads/2014/11/IMG_0297_web-200x300.jpg)  |
 
 
 
