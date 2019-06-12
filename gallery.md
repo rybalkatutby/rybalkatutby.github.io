@@ -12,7 +12,7 @@ active: gallery
 
 А пока смотрите наши фото в [Instagram](https://instagram.com/vygonichanka)!
 
-### Лучшее из архива фотографий:
+#### Лучшее из архива фотографий:
 
 | ![alt text](/wp-content/uploads/2013/03/2011_08_panorama-300x197.jpg)       | ![alt text](/wp-content/uploads/2013/03/2011_1-300x222.jpg)           | ![alt text](/wp-content/uploads/2013/03/2012_2-225x300.jpg)  |
 | ------------- |:-------------:| -----:|
