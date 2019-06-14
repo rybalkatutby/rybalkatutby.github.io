@@ -2,7 +2,7 @@
 bg: "pagefish.jpg"
 layout: page
 title: "Цены"
-crawlertitle: "Why and how this blog was created"
+crawlertitle: "Цены | Выгоничанка"
 permalink: /price/
 summary: "Платные услуги"
 active: price 
