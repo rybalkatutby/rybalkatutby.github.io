@@ -11,7 +11,7 @@ active: archive
   <ul class="news">
     {% for post in site.posts %}
         <li>
-            <a href="{{ post.url | relative_url}}">{{ post.title }}</a>
+            <a class="news_title" href="{{ post.url | relative_url}}">{{ post.title }}</a>
             <span class="date">{{ post.date | date: "%d-%m-%Y"  }}</span>
             {{ post.content }}
         </li>
