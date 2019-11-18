@@ -270,7 +270,7 @@ article {
 
 .news a {
   text-decoration: none;
-  font-size: 25px;
+  /*font-size: 25px;*/
 }
 
 .news a:hover {
@@ -284,6 +284,9 @@ article {
   display: none;
 }
 
+.linkInText {
+  font-family: sans-serif;
+}
 
 
 /*
