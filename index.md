@@ -13,7 +13,7 @@ summary: "Платная рыбалка и отдых всего в 32км от 
 #### Контакты
 - +375 (29) 771-88-29 (МТС)
 
-- +375 (29) 626-84-26 (life, Viber ![](images/viber_small.png))
+- +375 (29) 626-84-26 (life, Viber)
 
 - E-mail: <a href="mailto:zois_52@mail.ru">zois_52@mail.ru</a>
 
